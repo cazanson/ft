@@ -1,0 +1,122 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html LANG="LA">
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<meta HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+<meta HTTP-EQUIV="Content-Script-Type" CONTENT="text/javascript">
+<meta NAME="keywords" CONTENT="Thomas de Aquino, Corpus Thomisticum, Inventarium, Textus">
+<meta NAME="language" CONTENT="Latin">
+<meta NAME="security" CONTENT="public">
+<meta NAME="owner" CONTENT="ealarcon@unav.es">
+<meta NAME="author" CONTENT="Enrique Alarc&oacute;n">
+<meta NAME="abstract" CONTENT="Inventarium textuum Corporis Thomistici automato &laquo;Google&raquo; instructo">
+<link REL="stylesheet" MEDIA="screen" HREF="vscreen.css" TYPE="text/css">
+<link REL="stylesheet" MEDIA="print" HREF="vprint.css" TYPE="text/css">
+<link REL="stylesheet" MEDIA="aural" HREF="vaural.css" TYPE="text/css">
+<title>Corpus Thomisticum: Inventarium documentorum</title>
+<SCRIPT>
+<!--
+function setFocus() { document.f.as_epq.focus(); }
+// -->
+</SCRIPT>
+<script type="text/javascript">
+document.ondblclick = goPage;
+  function findSelection(){
+        if (document.getSelection){ txt = document.getSelection();}
+        else if (document.selection){ txt = document.selection.createRange().text;}
+        else {return "";}
+        return txt;
+  }
+  function goPage(){
+        var word = findSelection();
+        if (word != "") {
+                var toast = window.open("http://www.perseus.tufts.edu/hopper/morph?la=la&l="+word,"","width="+screen.width*0.75+",height="+screen.height*0.75+",screenX="+screen.width*0.125+"px,screenY="+screen.height*0.125+"px,scrollbars=1,resizable=1,toolbar=0");
+        }
+  }
+  </script>
+</head>
+<BODY onload=setFocus()>
+<TABLE ALIGN="center" WIDTH="760">
+
+<TR>
+<TH ROWSPAN="8"><IMG SRC="icons/lotto400.jpg" WIDTH="170" HEIGHT="400" BORDER="0" ALT="Thomas de Aquino cum S. Flaviano a Lorenzo Lotto depictus (&laquo;Polypticho di Renacati&raquo;, Pinacoteca Comunale, Renacati)" ALIGN="middle">&nbsp;&nbsp;&nbsp;&nbsp;</TH>
+<TH>&nbsp;</TH>
+</TR>
+
+<TR><TH> &nbsp; </TH></TR>
+
+
+<TR><TH><A HREF="index.html"><SPAN CLASS="tres">CORPUS THOMISTICUM</SPAN></A></TH></TR>
+
+<TR><TH>
+<SPAN CLASS="uno">INVENTARIUM DOCUMENTORUM</SPAN>
+</TH></TR>
+
+<TR><TH>
+<DIV ALIGN="center">
+
+<script>
+  (function() {
+    var cx = '010961790328052684455:ukaely7cdwa';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+
+</DIV>
+</TH></TR>
+
+<TR><TH> &nbsp; </TH></TR>
+<TR><TH> &nbsp; </TH></TR>
+<TR><TH> &nbsp; </TH></TR>
+
+
+
+
+<!--
+Google site search
+
+<FORM name=f action="http://www.google.com/u/ct" method=get>
+<INPUT type=hidden name=as_dt value="i">
+<INPUT type=hidden value="UTF-8" name=ie>
+<INPUT type=hidden value="UTF-8" name=oe>
+<INPUT type=hidden value=0 name=filter>
+<INPUT type=hidden value=100 name=num>
+<INPUT type=hidden value=la name=hl>
+<INPUT type=hidden value=any name=lr>
+<INPUT type=hidden name=as_occt value="">
+</TH></TR>
+<TR><TH>&nbsp;</TH></TR>
+<TR><TD><SPAN CLASS="tres">ubi </SPAN><SPAN CLASS="cuatro">sententia </SPAN><SPAN CLASS="tres">haec adest:</SPAN><br><INPUT name=as_epq size=77></TD></TR>
+<TR><TD><SPAN CLASS="tres">ubi </SPAN><SPAN CLASS="cuatro">omnia </SPAN><SPAN CLASS="tres">verba haec adsunt:</SPAN><br><INPUT name=as_q size=77></TD></TR>
+<TR><TD><SPAN CLASS="tres">ubi </SPAN><SPAN CLASS="cuatro">quodvis </SPAN><SPAN CLASS="tres">ex his verbis adest:</SPAN><br><INPUT name=as_oq size=77></TD></TR>
+<TR><TD><SPAN CLASS="tres">ubi </SPAN><SPAN CLASS="cuatro">absunt </SPAN><SPAN CLASS="tres">omnia verba haec:</SPAN><br><INPUT name=as_eq size=77></TD></TR>
+<TR><TD>
+
+
+<BR>
+<SELECT name=q>
+<OPTION value="" selected>in documentis omnibus</OPTION>
+<OPTION value="intitle:CTh1">in scriptis Thomae de Aquino</OPTION>
+<OPTION value="intitle:CTh2">in scriptis aliorum auctorum</OPTION>
+<OPTION value="intitle:CTh3">in Fontibus vitae S. Thomae</OPTION>
+<OPTION value="intitle:CTh4">in Catalogis operum</OPTION>
+<OPTION value="intitle:CTh5">in Bibliographia Thomistica</OPTION>
+</SELECT>&nbsp;&nbsp;
+
+
+
+<INPUT name=sa type=submit value="REPERI">&nbsp;&nbsp;<INPUT type=reset value="&nbsp;Dele&nbsp;">&nbsp;&nbsp;<INPUT TYPE="button" VALUE="Ad Corpus Thomisticum" onClick="window.location.href='index.html'">
+</TD></TR>
+
+// -->
+
+</TABLE>
+</body>
+</HTML>

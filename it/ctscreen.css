@@ -1,0 +1,98 @@
+A:link, A:active, A:visited {line-height: 120%; text-decoration: none; background: #EAEBD7; color: #191970}
+BODY {line-height: 150%; text-align: justify; font-family: Verdana, Arial, Geneva; font-size: medium; background: #EAEBD7; color: #002200; margin-left: 2em; margin-right: 2em}
+DIV.centro {text-align: center}
+DIV.uno {font-family: Garamond, "Times New Roman"; font-size: x-large; line-height: 100%; text-align: center; background: #EAEBD7; color: #800000}
+DIV.dos {font-family: Arial, Geneva; font-size: large; line-height: 100%; text-align: center; background: #EAEBD7; color: #336666}
+DIV.tres {font-family: "Times New Roman"; font-size: medium; line-height: 120%; text-align: center; background: #EAEBD7; color: #336666}
+DIV.cuatro {font-family: Arial, Geneva; font-size: medium; line-height: 120%; text-align: center; background: #EAEBD7; color: #800000}
+DIV.cinco {font-family: Garamond, "Times New Roman"; font-size: medium; line-height: 120%; text-align: center; background: #EAEBD7; color: #800000}
+DIV.seis {font-family: Arial, Geneva; font-size: small; line-height: 120%; text-align: center; background: #EAEBD7; color: #800000}
+DIV.siete {font-family: Arial, Geneva; font-size: medium; line-height: 120%; text-align: center; background: #EAEBD7; color: #336666}
+DIV.ocho {font-family: "Times New Roman"; font-size: medium; line-height: 120%; text-align: center; background: #EAEBD7; color: #336666}
+DIV.nueve {font-family: Verdana, Arial, Geneva; font-size: x-small; line-height: 120%; text-align: center; background: #EAEBD7; color: #336666}
+DIV.A {font-family: "Times New Roman"; text-align: center; font-size: x-large; line-height: 100%; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.B {font-family: Garamond, "Times New Roman"; text-align: center; font-size: x-large; line-height: 100%; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.C {font-family: "Times New Roman"; line-height: 120%; text-align: center; font-size: large; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.D {font-family: Garamond, "Times New Roman"; line-height: 120%; text-align: center; font-size: large; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.E {font-family: "Times New Roman"; line-height: 120%; text-align: center; font-size: medium; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.F {font-family: Garamond, "Times New Roman"; line-height: 120%; text-align: center; font-size: medium; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.G {font-family: "Times New Roman"; font-size: small; line-height: 120%; font-weight: bold; text-align: center; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.H {font-family: Garamond, "Times New Roman"; line-height: 120%; text-align: center; font-size: small; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+SPAN.uno {font-family: Garamond, "Times New Roman"; font-size: x-large; line-height: 100%; background: #EAEBD7; color: #800000}
+SPAN.dos {font-family: Arial, Geneva; font-size: large; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.tres {font-family: "Times New Roman"; font-size: medium; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.cuatro {font-family: Arial, Geneva; font-size: medium; line-height: 120%; background: #EAEBD7; color: #800000}
+SPAN.cinco {font-family: Garamond, "Times New Roman"; font-size: medium; line-height: 120%; background: #EAEBD7; color: #800000}
+SPAN.seis {font-family: Arial, Geneva; font-size: small; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.siete {font-family: Arial, Geneva; font-size: x-small; line-height: 120%; background: #EAEBD7; color: #336666}
+
+SPAN.ocho {font-size: medium; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.nueve {font-family: "Times New Roman"; font-size: x-small; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.diez {font-family: "Times New Roman"; font-size: x-small; line-height: 120%; background: #EAEBD7}
+
+DIV.error {font-family: Garamond, "Times New Roman"; text-align: center; font-size: medium; line-height: 120%; background: #EAEBD7; color: #800000}
+DIV.options {font-family: Arial, Geneva; font-size: medium; text-align: left; background: #EAEBD7; color: #336666}
+SPAN.num { text-align: right; font-family: Arial, Geneva; font-size: small; background: #EAEBD7; color: #EAB8EB}
+DIV.case {font-family: Garamond, "Times New Roman"; font-size: medium; font-weight: bold; text-align: center; text-transform: uppercase; line-height: 120%; background: #EAEBD7; color: #800000}
+DIV.place {font-family: Garamond, "Times New Roman"; font-size: small; font-weight: bold; text-align: center; text-transform: uppercase; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.ref { font-size: small; line-height: 120%; font-weight: bold; background: #EAEBD7; color: #336666}
+FONT.sw { color: #800000 }
+DIV.listedLemma {font-family: Garamond, "Times New Roman"; font-size: medium; font-weight: bold; text-align: center; line-height: 120%; background: #EAEBD7; color: #800000}
+DIV.listedLemmaType {font-family: Garamond, "Times New Roman"; display: block; font-size: small; line-height: 120%; text-align: center; background: #EAEBD7; color: #336666}
+DIV.listedForma {font-family: Garamond, "Times New Roman"; font-size: medium; text-align: left; background: #EAEBD7; color: #336666}
+DIV.listedWorkHeading {font-family: Garamond, "Times New Roman"; font-size: medium; font-weight: bold; text-align: center; text-transform: uppercase; line-height: 120%; background: #EAEBD7; color: #800000}
+SPAN.listedWork { text-align: left; }
+SPAN.homograph { font-style: italic; text-align: left; }
+SPAN.caseNumber { font-family: Garamond, "Times New Roman"; font-size: medium; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #800000}
+SPAN.placeNumber { text-transform: uppercase; }
+
+/* Authorship */
+SPAN.auL { font-style: italic; } /* literal */
+SPAN.auC { font-style: italic; } /* literal references */
+SPAN.auS { } /* quotations ad sensum */
+SPAN.auR { } /* non-literal references */
+SPAN.auV { } /* references to other passages or works by the same author */
+
+DIV.rec { font-family: "Courier New", Courier; font-size: small; text-transform: uppercase; }
+SPAN.odd { color: #191970; }
+SPAN.even { }
+
+SPAN.unon {font-family: Garamond, "Times New Roman"; font-size: x-large; font-weight: bold; line-height: 100%; background: #EAEBD7; color: #800000}
+SPAN.dosn {font-family: Arial, Geneva; font-size: large; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.tresn {font-family: "Times New Roman"; font-size: medium; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.cuatron {font-family: Arial, Geneva; font-size: medium; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #800000}
+SPAN.cincon {font-family: Garamond, "Times New Roman"; font-size: medium; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #800000}
+SPAN.seisn {font-family: Arial, Geneva; font-size: small; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.sieten {font-family: Arial, Geneva; font-size: x-small; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.breve {text-decoration: none}
+SPAN.blank {font-family: "Times New Roman"; font-size: x-small; line-height: 100%; text-align: center; background: #EAEBD7; color: #EAEBD7}
+SPAN.lista {display: block; text-align: right}
+SPAN.tit {display: none}
+SPAN.refs {font-family: Arial, Geneva; font-size: small; font-weight: light; line-height: 100%; vertical-align: middle; background: #EAEBD7; color: #99CCCC}
+SPAN.cit {display: none}
+SPAN.O {background: #000000; color: #FFFFFF}
+SPAN.L {background: #999999; color: #000000}
+SPAN.T {background: #EAEBD7; color: #008800}
+SPAN.C {background: #EAEBD7; color: #008800}
+SPAN.D {background: #EAEBD7; color: #00FF00}
+SPAN.X {background: #000000; color: #00FF00}
+SPAN.I {background: #EAEBD7; color: #FF0000}
+SPAN.Y {background: #000000; color: #FF0000}
+SPAN.M {background: #EAEBD7; color: #0000FF}
+SPAN.V {background: #FFFFFF; color: #002200}
+SPAN.H {background: #EAEBD7; color: #FF00FF}
+SPAN.F {background: #EAEBD7; color: #FFAA00}
+SPAN.Z {background: #000000; color: #FFAA00}
+SPAN.G {background: #EAEBD7; color: #00AAFF}
+SPAN.W {background: #000000; color: #00AAFF}
+SPAN.P {background: #FFFFFF; color: #FF0000}
+SPAN.N {background: #FFFFFF; color: #008800}
+SPAN.Q {background: #FFFFFF; color: #008800}
+SPAN.nota {font-family: "Courier New", Courier}
+SPAN.falsa {font-family: Garamond, "Times New Roman"; font-size: small; line-height: 120%}
+SPAN.negra {font-family: Arial, Geneva; font-size: medium; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #002200}
+SPAN.negrag {font-family: Arial, Geneva; font-size: large; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #002200}
+SPAN.super {font-size: x-small; vertical-align: text-top}
+SPAN.ZA {text-transform: uppercase}
+SPAN.ZT {font-weight: bold}
+UL.no {font-family: Garamond, "Times New Roman"; list-style-type: none}

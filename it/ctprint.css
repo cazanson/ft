@@ -1,0 +1,70 @@
+A:link, A:visited, A:active {line-height: 120%; text-decoration: underline}
+BODY {line-height: 150%; text-align: justify; font-family: Verdana, Arial, Geneva; font-size: medium}
+DIV.A {font-family: "Times New Roman"; text-align: center; font-size: x-large; line-height: 100%; font-weight: bold; text-transform: uppercase}
+DIV.B {font-family: Garamond, "Times New Roman"; text-align: center; font-size: x-large; line-height: 100%; font-weight: bold; text-transform: uppercase}
+DIV.C {font-family: "Times New Roman"; line-height: 120%; text-align: center; font-size: large; font-weight: bold; text-transform: uppercase}
+DIV.centro {text-align: center}
+DIV.cinco {font-family: Garamond, "Times New Roman"; font-size: medium; line-height: 120%; text-align: center}
+DIV.cuatro {font-family: Arial, Geneva; font-size: medium; line-height: 120%; text-align: center}
+DIV.D {font-family: Garamond, "Times New Roman"; line-height: 120%; text-align: center; font-size: large; font-weight: bold; text-transform: uppercase}
+DIV.dos {font-family: Arial, Geneva; font-size: large; line-height: 100%; text-align: center}
+DIV.E {font-family: "Times New Roman"; line-height: 120%; text-align: center; font-size: medium; font-weight: bold; text-transform: uppercase}
+DIV.F {font-family: Garamond, "Times New Roman"; line-height: 120%; text-align: center; font-size: medium; font-weight: bold; text-transform: uppercase}
+DIV.G {font-family: "Times New Roman"; font-size: small; line-height: 120%; font-weight: bold; text-align: center; text-transform: uppercase}
+DIV.G {font-family: "Times New Roman"; font-size: small; line-height: 120%; font-weight: bold; text-align: center; text-transform: uppercase}
+DIV.H {font-family: Garamond, "Times New Roman"; line-height: 120%; text-align: center; font-size: small; font-weight: bold; text-transform: uppercase}
+DIV.seis {font-family: Arial, Geneva; font-size: small; line-height: 120%; text-align: center}
+DIV.tres {font-family: "Times New Roman"; font-size: medium; line-height: 120%; text-align: center}
+DIV.uno {font-family: Garamond, "Times New Roman"; font-size: x-large; line-height: 100%; text-align: center}
+SPAN.breve {text-decoration: underline}
+SPAN.blank {font-family: "Times New Roman"; font-size: x-small; line-height: 100%; text-align: center; color: #FFFFFF}
+SPAN.C {font-family: "Times New Roman", Times}
+SPAN.cinco {font-family: Garamond, "Times New Roman"; font-size: medium; line-height: 120%}
+SPAN.cincon {font-family: Garamond, "Times New Roman"; font-size: medium; font-weight: bold; line-height: 120%}
+SPAN.cit {display: none}
+SPAN.cuatro {font-family: Arial, Geneva; font-size: medium; line-height: 120%}
+SPAN.cuatron {font-family: Arial, Geneva; font-size: medium; font-weight: bold; line-height: 120%}
+SPAN.D {font-family: "Times New Roman", Times}
+SPAN.dos {font-family: Arial, Geneva; font-size: large; line-height: 120%}
+SPAN.dosn {font-family: Arial, Geneva; font-size: large; font-weight: bold; line-height: 120%}
+SPAN.F {text-transform: uppercase; font-family: "Times New Roman", Times}
+SPAN.falsa {font-family: Garamond, "Times New Roman"; font-size: small; line-height: 120%}
+SPAN.G {text-transform: uppercase; font-weight: bold; font-family: "Times New Roman", Times}
+SPAN.H {text-transform: uppercase; font-weight: bold; vertical-align: super; line-height: 200%}
+SPAN.I {text-transform: uppercase}
+SPAN.J {text-transform: uppercase; font-weight: bold; font-family: "Times New Roman", Times}
+SPAN.L {color: red; text-transform: uppercase; font-family: "Times New Roman", Times}
+SPAN.lista {display: block; text-align: right}
+SPAN.M {text-transform: uppercase; font-weight: bold}
+SPAN.N {vertical-align: sub; line-height: 200%; font-family: "Times New Roman", Times}
+SPAN.negra {font-family: Arial, Geneva; font-size: medium; font-weight: bold; line-height: 120%}
+SPAN.negrag {font-family: Arial, Geneva; font-size: large; font-weight: bold; line-height: 120%}
+SPAN.nota {text-decoration: underline}
+SPAN.num {font-family: Arial, Geneva; font-size: x-small; line-height: 100%; vertical-align: middle; color: grey}
+SPAN.O {color: red}
+SPAN.P {vertical-align: sub; line-height: 200%; text-transform: uppercase}
+SPAN.Q {vertical-align: sub; line-height: 200%; font-family: "Times New Roman", Times}
+SPAN.ref {font-family: Arial, Geneva; display: block; font-size: x-small; line-height: 120%; text-align: right}
+SPAN.refs {font-family: Arial, Geneva; font-size: x-small; font-weight: light; line-height: 100%; vertical-align: middle}
+SPAN.seis {font-family: Arial, Geneva; font-size: small; line-height: 120%}
+SPAN.seisn {font-family: Arial, Geneva; font-size: small; font-weight: bold; line-height: 120%}
+SPAN.siete {font-family: Arial, Geneva; font-size: x-small; line-height: 120%}
+SPAN.sieten {font-family: Arial, Geneva; font-size: x-small; font-weight: bold; line-height: 120%}
+SPAN.super {font-size: x-small; vertical-align: text-top}
+SPAN.T {font-family: "Times New Roman", Times}
+SPAN.tit {display: none}
+SPAN.tres {font-family: "Times New Roman"; font-size: medium; line-height: 120%}
+SPAN.tresn {font-family: "Times New Roman"; font-size: medium; font-weight: bold; line-height: 120%}
+SPAN.uno {font-family: Garamond, "Times New Roman"; font-size: x-large; line-height: 100%}
+SPAN.unon {font-family: Garamond, "Times New Roman"; font-size: x-large; font-weight: bold; line-height: 100%}
+SPAN.V {vertical-align: sub; line-height: 200%}
+SPAN.W {text-transform: uppercase; font-weight: bold; font-family: "Times New Roman", Times; vertical-align: super; line-height: 200%}
+SPAN.X {font-family: "Times New Roman", Times; vertical-align: super; line-height: 200%}
+SPAN.Y {text-transform: uppercase; vertical-align: super; line-height: 200%}
+SPAN.Z {text-transform: uppercase; font-family: "Times New Roman", Times; vertical-align: super; line-height: 200%}
+SPAN.ZA {text-transform: uppercase}
+SPAN.ZT {font-weight: bold}
+TABLE {text-align: center}
+TD {font-weight: bold; text-align: left}
+TH {vertical-align: middle; text-align: center}
+UL.no {font-family: Garamond, "Times New Roman"; list-style-type: none}
