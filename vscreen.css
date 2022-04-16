@@ -37,12 +37,12 @@ hr {
 }
 
 SPAN.tras {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-weight:700;
 }
 
 SPAN.cita {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	color:#014567;
 	font-weight:700;
 }
@@ -56,16 +56,16 @@ SPAN.rf {
 }
 
 SPAN.vox {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 }
 
 SPAN.sent {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:13pt;
 }
 
 SPAN.gr {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-weight:700;
 	font-style:normal;
 	color:#014567;
@@ -73,7 +73,7 @@ SPAN.gr {
 }
 
 SPAN.graec {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-weight:700;
 	font-style:normal;
 	color:#014567;
@@ -81,11 +81,11 @@ SPAN.graec {
 }
 
 SPAN.hb {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 }
 
 SPAN.ar {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 }
 
 SPAN.auct {
@@ -122,14 +122,14 @@ DIV.tres {
 }
 
 DIV.cuatro {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	text-align:center;
 	background:#f2f2f2;
 	color:red;
 }
 
 DIV.cuatrog {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:large;
 	line-height:120%;
 	text-align:center;
@@ -138,7 +138,7 @@ DIV.cuatrog {
 }
 
 DIV.cinco {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	line-height:120%;
 	text-align:center;
@@ -147,7 +147,7 @@ DIV.cinco {
 }
 
 DIV.seis {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:small;
 	line-height:120%;
 	text-align:center;
@@ -156,7 +156,7 @@ DIV.seis {
 }
 
 DIV.seisv {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:small;
 	line-height:120%;
 	text-align:center;
@@ -165,7 +165,7 @@ DIV.seisv {
 }
 
 DIV.siete {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	line-height:120%;
 	text-align:center;
@@ -174,7 +174,7 @@ DIV.siete {
 }
 
 DIV.ocho {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	line-height:120%;
 	text-align:center;
@@ -183,7 +183,7 @@ DIV.ocho {
 }
 
 DIV.nueve {
-	font-family:Verdana,'et-book',Georgia,serif;
+	font-family:Verdana,'iawriter',Georgia,serif;
 	font-size:x-small;
 	line-height:120%;
 	text-align:center;
@@ -192,7 +192,7 @@ DIV.nueve {
 }
 
 DIV.A {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	text-align:center;
 	font-size:x-large;
 	line-height:100%;
@@ -203,7 +203,7 @@ DIV.A {
 }
 
 DIV.B {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	text-align:center;
 	font-size:x-large;
 	line-height:100%;
@@ -214,7 +214,7 @@ DIV.B {
 }
 
 DIV.C {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	line-height:120%;
 	text-align:center;
 	font-size:large;
@@ -225,7 +225,7 @@ DIV.C {
 }
 
 DIV.D {
-	font-family:'et-bookSC',Georgia,serif;
+	font-family:'iawriterSC',Georgia,serif;
 	font-size: 1.25em;
 	text-align:center;
 	text-transform:lowercase;
@@ -233,7 +233,7 @@ DIV.D {
 }
 
 DIV.E {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	line-height:120%;
 	text-align:center;
 	font-size:medium;
@@ -244,7 +244,7 @@ DIV.E {
 }
 
 DIV.F {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	line-height:120%;
 	text-align:center;
 	font-size:medium;
@@ -255,7 +255,7 @@ DIV.F {
 }
 
 DIV.G {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:small;
 	line-height:120%;
 	font-weight:700;
@@ -266,7 +266,7 @@ DIV.G {
 }
 
 DIV.H {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	line-height:120%;
 	text-align:center;
 	font-size:small;
@@ -277,7 +277,7 @@ DIV.H {
 }
 
 SPAN.uno {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:x-large;
 	line-height:100%;
 	background:#f2f2f2;
@@ -285,7 +285,7 @@ SPAN.uno {
 }
 
 SPAN.dos {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:large;
 	line-height:120%;
 	background:#f2f2f2;
@@ -293,14 +293,14 @@ SPAN.dos {
 }
 
 SPAN.tres {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	line-height:120%;
 	background:#f2f2f2;
 }
 
 SPAN.cuatro {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	line-height:120%;
 	background:#f2f2f2;
@@ -308,7 +308,7 @@ SPAN.cuatro {
 }
 
 SPAN.cinco {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	line-height:120%;
 	background:#f2f2f2;
@@ -316,7 +316,7 @@ SPAN.cinco {
 }
 
 SPAN.seis {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:small;
 	line-height:120%;
 	background:#f2f2f2;
@@ -324,7 +324,7 @@ SPAN.seis {
 }
 
 SPAN.siete {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:x-small;
 	line-height:120%;
 	background:#f2f2f2;
@@ -339,7 +339,7 @@ SPAN.ocho {
 }
 
 SPAN.nueve {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:x-small;
 	line-height:120%;
 	background:#f2f2f2;
@@ -347,14 +347,14 @@ SPAN.nueve {
 }
 
 SPAN.diez {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:x-small;
 	line-height:120%;
 	background:#f2f2f2;
 }
 
 SPAN.unon {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:x-large;
 	font-weight:700;
 	line-height:100%;
@@ -363,7 +363,7 @@ SPAN.unon {
 }
 
 SPAN.dosn {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:large;
 	font-weight:700;
 	line-height:120%;
@@ -372,7 +372,7 @@ SPAN.dosn {
 }
 
 SPAN.tresn {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	font-weight:700;
 	line-height:120%;
@@ -381,7 +381,7 @@ SPAN.tresn {
 }
 
 SPAN.cuatron {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	font-weight:700;
 	line-height:120%;
@@ -390,7 +390,7 @@ SPAN.cuatron {
 }
 
 SPAN.cincon {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	font-weight:700;
 	line-height:120%;
@@ -399,7 +399,7 @@ SPAN.cincon {
 }
 
 SPAN.seisn {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:small;
 	font-weight:700;
 	line-height:120%;
@@ -408,7 +408,7 @@ SPAN.seisn {
 }
 
 SPAN.sieten {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:x-small;
 	font-weight:700;
 	line-height:120%;
@@ -421,7 +421,7 @@ SPAN.breve {
 }
 
 SPAN.blank {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:x-small;
 	line-height:100%;
 	text-align:center;
@@ -435,7 +435,7 @@ SPAN.lista {
 }
 
 SPAN.num {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:small;
 	background:#f2f2f2;
 	color:#EAB8EB;
@@ -455,7 +455,7 @@ SPAN.ref {
 }
 
 SPAN.refs {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:small;
 	font-weight:light;
 	line-height:100%;
@@ -585,13 +585,13 @@ SPAN.nota {
 }
 
 SPAN.falsa {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:small;
 	line-height:120%;
 }
 
 SPAN.negra {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	font-weight:700;
 	line-height:120%;
@@ -600,7 +600,7 @@ SPAN.negra {
 }
 
 SPAN.negrag {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	font-size:large;
 	font-weight:700;
 	line-height:120%;
@@ -633,7 +633,7 @@ TD {
 }
 
 UL.no {
-	font-family:'et-book',Georgia,serif;
+	font-family:'iawriter',Georgia,serif;
 	list-style-type:none;
 }
 
