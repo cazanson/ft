@@ -1,5 +1,5 @@
-@import "/assets/css/iawriter.css";
-@import "/assets/css/style.css";
+@import "assets/css/iawriter.css";
+@import "assets/css/style.css";
 
 a, a:link, a:active, a:visited {
 	text-decoration:none;
