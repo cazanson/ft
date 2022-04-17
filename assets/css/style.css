@@ -425,7 +425,7 @@ body {
   font-style: normal;
   font-variant: normal;
   /* font-size: 1.3125em; */
-  font-size: 1.1em;
+  font-size: 1.03em;
   line-height: 1.52381em;
   color: #111111;
   background-color: #f2f2f2;
@@ -1548,7 +1548,7 @@ footer {
 
   body {
     padding-top: 2.83333em;
-    font-size: 1.125em;
+    font-size: 1.03em;
     line-height: 1.5em; }
 
   /*
