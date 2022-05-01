@@ -428,7 +428,7 @@ body {
   font-size: 1.03em;
   line-height: 1.52381em;
   color: #111111;
-  background-color: #f2f2f2;
+  background-color: #fafafa;
   /* Stops Mobile Safari from auto-adjusting font-sizes */
   -webkit-text-size-adjust: 100%;
   /* improves the text rendering in more recents browsers */
@@ -483,7 +483,7 @@ p:last-child {
     position: relative;
     padding: 0 10px;
     z-index: 1;
-    background-color: #fdfdfd;
+    background-color: #fafafa;
     text-decoration: none; }
   .section_separator a:hover {
     text-decoration: underline; }
@@ -873,7 +873,7 @@ footer {
   position: relative;
   padding: 6% 0;
   border: 1px solid #ccc;
-  background-color: #FBFBFB;
+  background-color: #fafafa;
   behaviour: url(/web/20140626163758/http://cloudfront.ia.net/wp-content/themes/iA4-0.2/PIE.htc); }
   #message_wrapper input,
   #message_wrapper textarea {
