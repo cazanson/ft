@@ -108,7 +108,7 @@ DIV.uno {
 
 DIV.dos {
 	text-align:center;
-	background:#f2f2f2;
+	background:#fafafa;
 	font-size: 1em;
     font-style: normal;
     line-height: 1.52381em; 
@@ -119,13 +119,13 @@ DIV.tres {
 	font-size: 1em;
 	font-style: normal;
 	line-height: 1.52381em;
-	background:#f2f2f2;
+	background:#fafafa;
 }
 
 DIV.cuatro {
 	font-family:'iawriter',Georgia,serif;
 	text-align:center;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:red;
 }
 
@@ -134,7 +134,7 @@ DIV.cuatrog {
 	font-size:large;
 	line-height:120%;
 	text-align:center;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:red;
 }
 
@@ -143,7 +143,7 @@ DIV.cinco {
 	font-size:medium;
 	line-height:120%;
 	text-align:center;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:red;
 }
 
@@ -152,7 +152,7 @@ DIV.seis {
 	font-size:small;
 	line-height:120%;
 	text-align:center;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:red;
 }
 
@@ -161,7 +161,7 @@ DIV.seisv {
 	font-size:small;
 	line-height:120%;
 	text-align:center;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -170,7 +170,7 @@ DIV.siete {
 	font-size:medium;
 	line-height:120%;
 	text-align:center;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -179,7 +179,7 @@ DIV.ocho {
 	font-size:medium;
 	line-height:120%;
 	text-align:center;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -188,7 +188,7 @@ DIV.nueve {
 	font-size:x-small;
 	line-height:120%;
 	text-align:center;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -199,7 +199,7 @@ DIV.A {
 	line-height:100%;
 	font-weight:700;
 	text-transform:uppercase;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -210,7 +210,7 @@ DIV.B {
 	line-height:100%;
 	font-weight:700;
 	text-transform:uppercase;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -221,7 +221,7 @@ DIV.C {
 	font-size:large;
 	font-weight:700;
 	text-transform:uppercase;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -240,7 +240,7 @@ DIV.E {
 	font-size:medium;
 	font-weight:700;
 	text-transform:uppercase;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -251,7 +251,7 @@ DIV.F {
 	font-size:medium;
 	font-weight:700;
 	text-transform:uppercase;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -262,7 +262,7 @@ DIV.G {
 	font-weight:700;
 	text-align:center;
 	text-transform:uppercase;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -273,7 +273,7 @@ DIV.H {
 	font-size:small;
 	font-weight:700;
 	text-transform:uppercase;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -281,7 +281,7 @@ SPAN.uno {
 	font-family:'iawriter',Georgia,serif;
 	font-size:x-large;
 	line-height:100%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:red;
 }
 
@@ -289,7 +289,7 @@ SPAN.dos {
 	font-family:'iawriter',Georgia,serif;
 	font-size:large;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -297,14 +297,14 @@ SPAN.tres {
 	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 }
 
 SPAN.cuatro {
 	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:red;
 }
 
@@ -312,7 +312,7 @@ SPAN.cinco {
 	font-family:'iawriter',Georgia,serif;
 	font-size:medium;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:red;
 }
 
@@ -320,7 +320,7 @@ SPAN.seis {
 	font-family:'iawriter',Georgia,serif;
 	font-size:small;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -328,14 +328,14 @@ SPAN.siete {
 	font-family:'iawriter',Georgia,serif;
 	font-size:x-small;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
 SPAN.ocho {
 	font-size:medium;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -343,7 +343,7 @@ SPAN.nueve {
 	font-family:'iawriter',Georgia,serif;
 	font-size:x-small;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -351,7 +351,7 @@ SPAN.diez {
 	font-family:'iawriter',Georgia,serif;
 	font-size:x-small;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 }
 
 SPAN.unon {
@@ -359,7 +359,7 @@ SPAN.unon {
 	font-size:x-large;
 	font-weight:700;
 	line-height:100%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:red;
 }
 
@@ -368,7 +368,7 @@ SPAN.dosn {
 	font-size:large;
 	font-weight:700;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -377,7 +377,7 @@ SPAN.tresn {
 	font-size:medium;
 	font-weight:700;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -386,7 +386,7 @@ SPAN.cuatron {
 	font-size:medium;
 	font-weight:700;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:red;
 }
 
@@ -395,7 +395,7 @@ SPAN.cincon {
 	font-size:medium;
 	font-weight:700;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:red;
 }
 
@@ -404,7 +404,7 @@ SPAN.seisn {
 	font-size:small;
 	font-weight:700;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -413,7 +413,7 @@ SPAN.sieten {
 	font-size:x-small;
 	font-weight:700;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#111111;
 }
 
@@ -426,7 +426,7 @@ SPAN.blank {
 	font-size:x-small;
 	line-height:100%;
 	text-align:center;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#f2f2f2;
 }
 
@@ -438,7 +438,7 @@ SPAN.lista {
 SPAN.num {
 	font-family:'iawriter',Georgia,serif;
 	font-size:small;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#EAB8EB;
 }
 
@@ -451,7 +451,7 @@ SPAN.ref {
 	font-size:small;
 	line-height:120%;
 	text-align:right;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:silver;
 }
 
@@ -461,7 +461,7 @@ SPAN.refs {
 	font-weight:light;
 	line-height:100%;
 	vertical-align:middle;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#9CC;
 }
 
@@ -596,7 +596,7 @@ SPAN.negra {
 	font-size:medium;
 	font-weight:700;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#020;
 }
 
@@ -605,7 +605,7 @@ SPAN.negrag {
 	font-size:large;
 	font-weight:700;
 	line-height:120%;
-	background:#f2f2f2;
+	background:#fafafa;
 	color:#020;
 }
 
@@ -630,7 +630,7 @@ TH {
 
 TD {
 	text-align:left;
-	background:#f2f2f2;
+	background:#fafafa;
 }
 
 UL.no {
