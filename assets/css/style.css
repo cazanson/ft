@@ -425,7 +425,8 @@ body {
   font-style: normal;
   font-variant: normal;
   /* font-size: 1.3125em; */
-  font-size: 1.03em;
+  /* font-size: 1.03em; */
+  font-size: 1.155em;
   line-height: 1.52381em;
   color: #111111;
   background-color: #fafafa;
