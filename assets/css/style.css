@@ -1548,7 +1548,8 @@ footer {
 
   body {
     padding-top: 2.83333em;
-    font-size: 0.935em;
+    /* font-size: 0.935em; */
+    font-size: 0.735em;
     line-height: 1.5em; }
 
   /*
