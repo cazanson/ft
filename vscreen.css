@@ -1,4 +1,5 @@
-BODY {line-height: 150%; text-align: justify; font-family: Verdana, "Lucida Sans", Arial, "Arial Unicode MS", Geneva; font-size: medium; background: #EAEBD7; color: #002200; margin-left: 2em; margin-right: 2em}
+@import url(/assets/valkyrie.css)
+BODY {line-height: 150%; text-align: justify; font-family: valkyrie, Verdana, "Lucida Sans", Arial, "Arial Unicode MS", Geneva; font-size: medium; background: #EAEBD7; color: #002200; margin-left: 2em; margin-right: 2em}
 A:link, A:active, A:visited {text-decoration: none; font-weight: bold; background: #EAEBD7; color: #191970}
 
 SPAN.tras {font-family: "Century Gothic", Arial, "Arial Unicode MS", Helvetica; font-weight: bold}
