@@ -1,0 +1,109 @@
+BODY {line-height: 150%; text-align: justify; font-family: Verdana, "Lucida Sans", Arial, "Arial Unicode MS", Geneva; font-size: medium; background: #EAEBD7; color: #002200; margin-left: 2em; margin-right: 2em}
+A:link, A:active, A:visited {text-decoration: none; font-weight: bold; background: #EAEBD7; color: #191970}
+
+SPAN.tras {font-family: "Century Gothic", Arial, "Arial Unicode MS", Helvetica; font-weight: bold}
+SPAN.cita {font-family: Arial, "Arial Unicode MS", Helvetica; color: #014567; font-weight: bold}
+SPAN.citas {font-style: italic}
+SPAN.rf {font-size: small}
+SPAN.vox {font-family: "Trebuchet MS", "Palatino Linotype", Palatino, "Times New Roman", Times}
+SPAN.sent {font-family: "Franklin Gothic Book", "Times New Roman", Times, "Palatino Linotype", Palatino; font-size: 13pt}
+SPAN.gr {font-family: "Arial Unicode MS", GentiumAlt, Gentium; font-weight: bold; font-style: normal; color: #014567; font-size: 13pt}
+SPAN.graec {font-family: "Arial Unicode MS", GentiumAlt, Gentium; font-weight: bold; font-style: normal; color: #014567; font-size: 13pt}
+SPAN.hb {font-family: "Times New Roman", "Arial Unicode MS"}
+SPAN.ar {font-family: "Times New Roman", "Arial Unicode MS"}
+SPAN.auct {display: block; text-align: right}
+
+DIV.centro {text-align: center}
+DIV.uno {font-family: Garamond, "Times New Roman"; font-size: x-large; line-height: 100%; text-align: center; background: #EAEBD7; color: #800000}
+DIV.dos {font-family: Arial, Geneva; font-size: large; line-height: 100%; text-align: center; background: #EAEBD7; color: #336666}
+DIV.tres {font-family: "Times New Roman"; font-size: medium; line-height: 120%; text-align: center; background: #EAEBD7; color: #336666}
+DIV.cuatro {font-family: Arial, Geneva; font-size: medium; line-height: 120%; text-align: center; background: #EAEBD7; color: #800000}
+DIV.cuatrog {font-family: Arial, Geneva; font-size: large; line-height: 120%; text-align: center; background: #EAEBD7; color: #800000}
+DIV.cinco {font-family: Garamond, "Times New Roman"; font-size: medium; line-height: 120%; text-align: center; background: #EAEBD7; color: #800000}
+DIV.seis {font-family: Arial, Geneva; font-size: small; line-height: 120%; text-align: center; background: #EAEBD7; color: #800000}
+DIV.seisv {font-family: Arial, Geneva; font-size: small; line-height: 120%; text-align: center; background: #EAEBD7; color: #336666}
+DIV.siete {font-family: Arial, Geneva; font-size: medium; line-height: 120%; text-align: center; background: #EAEBD7; color: #336666}
+DIV.ocho {font-family: "Times New Roman"; font-size: medium; line-height: 120%; text-align: center; background: #EAEBD7; color: #336666}
+DIV.nueve {font-family: Verdana, Arial, Geneva; font-size: x-small; line-height: 120%; text-align: center; background: #EAEBD7; color: #336666}
+DIV.A {font-family: "Times New Roman"; text-align: center; font-size: x-large; line-height: 100%; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.B {font-family: Garamond, "Times New Roman"; text-align: center; font-size: x-large; line-height: 100%; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.C {font-family: "Times New Roman"; line-height: 120%; text-align: center; font-size: large; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.D {font-family: Garamond, "Times New Roman"; line-height: 120%; text-align: center; font-size: large; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.E {font-family: "Times New Roman"; line-height: 120%; text-align: center; font-size: medium; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.F {font-family: Garamond, "Times New Roman"; line-height: 120%; text-align: center; font-size: medium; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.G {font-family: "Times New Roman"; font-size: small; line-height: 120%; font-weight: bold; text-align: center; text-transform: uppercase; background: #EAEBD7; color: #336666}
+DIV.H {font-family: Garamond, "Times New Roman"; line-height: 120%; text-align: center; font-size: small; font-weight: bold; text-transform: uppercase; background: #EAEBD7; color: #336666}
+SPAN.uno {font-family: Garamond, "Times New Roman"; font-size: x-large; line-height: 100%; background: #EAEBD7; color: #800000}
+SPAN.dos {font-family: Arial, Geneva; font-size: large; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.tres {font-family: "Times New Roman"; font-size: medium; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.cuatro {font-family: Arial, Geneva; font-size: medium; line-height: 120%; background: #EAEBD7; color: #800000}
+SPAN.cinco {font-family: Garamond, "Times New Roman"; font-size: medium; line-height: 120%; background: #EAEBD7; color: #800000}
+SPAN.seis {font-family: Arial, Geneva; font-size: small; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.siete {font-family: Arial, Geneva; font-size: x-small; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.ocho {font-size: medium; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.nueve {font-family: "Times New Roman"; font-size: x-small; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.diez {font-family: "Times New Roman"; font-size: x-small; line-height: 120%; background: #EAEBD7}
+SPAN.unon {font-family: Garamond, "Times New Roman"; font-size: x-large; font-weight: bold; line-height: 100%; background: #EAEBD7; color: #800000}
+SPAN.dosn {font-family: Arial, Geneva; font-size: large; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.tresn {font-family: "Times New Roman"; font-size: medium; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.cuatron {font-family: Arial, Geneva; font-size: medium; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #800000}
+SPAN.cincon {font-family: Garamond, "Times New Roman"; font-size: medium; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #800000}
+SPAN.seisn {font-family: Arial, Geneva; font-size: small; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.sieten {font-family: Arial, Geneva; font-size: x-small; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #336666}
+SPAN.breve {text-decoration: none}
+SPAN.blank {font-family: "Times New Roman"; font-size: x-small; line-height: 100%; text-align: center; background: #EAEBD7; color: #EAEBD7}
+SPAN.lista {display: block; text-align: right}
+SPAN.num {font-family: Arial, Geneva; font-size: small; background: #EAEBD7; color: #EAB8EB}
+SPAN.tit {display: none}
+SPAN.ref {display: block; font-size: small; line-height: 120%; text-align: right; background: #EAEBD7; color: #99CCCC}
+SPAN.refs {font-family: Arial, Geneva; font-size: small; font-weight: light; line-height: 100%; vertical-align: middle; background: #EAEBD7; color: #99CCCC}
+SPAN.cit {display: none}
+
+SPAN.O {border-style: outset; line-height: 250%}
+SPAN.L {border-style: inset; line-height: 250%}
+SPAN.I {font-weight: bold; font-style: italic; line-height: 250%}
+SPAN.M {font-weight: bold; border-style: solid; line-height: 250%}
+SPAN.H {font-weight: bold; font-style: italic; border-style: solid; line-height: 250%} 
+SPAN.T {text-decoration: line-through; line-height: 250%}
+SPAN.C {font-weight: bold; text-decoration: underline; line-height: 250%}
+SPAN.F {font-weight: bold; font-style: italic; text-decoration: line-through; line-height: 250%}
+SPAN.G {font-weight: bold; border-style: solid; vertical-align: sub; text-decoration: line-through; line-height: 250%}
+SPAN.X {text-decoration: line-through; vertical-align: super; letter-spacing: 2pt; line-height: 250%}
+SPAN.Y {font-weight: bold; vertical-align: sub; letter-spacing: 2pt; line-height: 250%}
+SPAN.Z {font-weight: bold; font-style: italic; text-decoration: line-through; vertical-align: super; letter-spacing: 2pt; line-height: 250%}
+SPAN.W {font-weight: bold; border-style: solid; text-decoration: line-through; vertical-align: super; letter-spacing: 2pt; line-height: 250%}
+SPAN.V {background: #C0C0C0; line-height: 250%}
+SPAN.P {background: #C0C0C0; font-weight: bold; font-style: italic; line-height: 250%}
+SPAN.N {background: #C0C0C0; text-decoration: line-through; line-height: 250%}
+SPAN.Q {background: #C0C0C0; font-weight: bold; text-decoration: underline; line-height: 250%}
+
+SPAN.nota {font-family: "Courier New", Courier}
+SPAN.falsa {font-family: Garamond, "Times New Roman"; font-size: small; line-height: 120%}
+SPAN.negra {font-family: Arial, Geneva; font-size: medium; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #002200}
+SPAN.negrag {font-family: Arial, Geneva; font-size: large; font-weight: bold; line-height: 120%; background: #EAEBD7; color: #002200}
+SPAN.super {font-size: x-small; vertical-align: text-top}
+SPAN.ZA {text-transform: uppercase}
+TABLE {border-color: #DDDDDD; text-align: center}
+TH {vertical-align: middle; text-align: center}
+TD {text-align: left; background: #EAEBD7}
+UL.no {font-family: Garamond, "Times New Roman"; list-style-type: none}
+LI.BR {list-style-image: url(https://www.corpusthomisticum.org/icons/red-ball.gif)}
+LI.BAP {list-style-image: url(https://www.corpusthomisticum.org/icons/bap.gif)}
+LI.BRP {list-style-image: url(https://www.corpusthomisticum.org/icons/brp.gif)}
+LI.BMP {list-style-image: url(https://www.corpusthomisticum.org/icons/bmp.gif)}
+LI.CZP {vertical-align: 33%; list-style-image: url(icons/bcz.gif) }
+LI.EN {vertical-align: 33%; list-style-image: url(icons/ben.gif) }
+LI.ENP {vertical-align: 33%; list-style-image: url(icons/ben.gif) }
+LI.ESP {vertical-align: 33%; list-style-image: url(icons/bes.gif) }
+LI.ES {vertical-align: 33%; list-style-image: url(icons/bes.gif) }
+LI.FR {vertical-align: 33%; list-style-image: url(icons/bfr.gif) }
+LI.HR {vertical-align: 33%; list-style-image: url(icons/bhr.gif) }
+LI.PO {vertical-align: 33%; list-style-image: url(icons/bpt.gif) }
+LI.IT {vertical-align: 33%; list-style-image: url(icons/bit.gif) }
+LI.NL {vertical-align: 33%; list-style-image: url(icons/bnl.gif) }
+LI.NP {vertical-align: 33%; list-style-image: url(icons/bnp.gif) }
+LI.DE {vertical-align: 33%; list-style-image: url(icons/bde.gif) }
+LI.LA {vertical-align: 33%; list-style-image: url(icons/bla.gif) }
+LI.POL {vertical-align: 33%; list-style-image: url(icons/bpl.gif) }
+LI.EL {vertical-align: 33%; list-style-image: url(icons/bel.gif) }
+LI.RU {vertical-align: 33%; list-style-image: url(icons/bru.gif) }
