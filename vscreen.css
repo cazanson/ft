@@ -4,11 +4,9 @@
    ========================================================================== */
 
 BODY {
-  width: 75%;
   line-height: 150%;
   text-align: justify;
-  font-family: valkyrie, Verdana, "Lucida Sans", Arial, "Arial Unicode MS",
-    Geneva;
+  font-family: valkyrie, Verdana, "Lucida Sans", Arial, "Arial Unicode MS", Geneva;
   font-size: medium;
   background: #eaebd7;
   color: #002200;
