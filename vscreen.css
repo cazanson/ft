@@ -1,13 +1,16 @@
-@import url(valkyrie.css)
 /* ==========================================================================   
    MFJ - valkyrie screen files
    ========================================================================== */
+@import url(valkyrie.css);
 
 BODY {
   line-height: 150%;
   text-align: justify;
   font-family: valkyrie, Verdana, "Lucida Sans", Arial, "Arial Unicode MS", Geneva;
-  font-size: medium;
+  font-size: min(22px, max(16px, 2.4vw));
+  font-feature-settings: 'ss01';
+  /*  font-size: medium; */
+  width: 65%;
   background: #eaebd7;
   color: #002200;
   margin-left: 2em;
