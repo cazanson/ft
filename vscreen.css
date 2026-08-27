@@ -1,0 +1,156 @@
+@font-face {font-family: valkyrie_ot_a; font-style: normal; font-weight: normal; font-stretch: normal; font-display: swap; src: url(fonts/valkyrie_ot_a_regular.woff2) format('woff2')}
+@font-face {font-family: valkyrie_ot_a; font-style: italic; font-weight: normal; font-stretch: normal; font-display: swap; src: url(fonts/valkyrie_ot_a_italic.woff2) format('woff2')}
+@font-face {font-family: valkyrie_ot_a; font-style: normal; font-weight: bold; font-stretch: normal; font-display: swap; src: url(fonts/valkyrie_ot_a_bold.woff2) format('woff2')}
+@font-face {font-family: valkyrie_ot_a; font-style: italic; font-weight: bold; font-stretch: normal; font-display: swap; src: url(fonts/valkyrie_ot_a_bold_italic.woff2) format('woff2')}
+
+:root {
+  /* text colors -- flattened to one neutral for now; differentiate these one at a time */
+  --text-body: #252523;
+  --text-title: #252523;
+  --text-label: #252523;
+  --text-cite: #252523;
+  --text-ref: #252523;
+  --text-num: #252523;
+  --text-link: #191970;
+
+  /* text sizes -- same effective sizes as before, now centralized */
+  --fs-base: clamp(18px, 2.4vw, 22px);
+  --fs-xs: x-small;
+  --fs-sm: small;
+  --fs-md: medium;
+  --fs-lg: large;
+  --fs-xl: x-large;
+  --fs-cite: 13pt;
+}
+
+* {box-sizing: border-box; transition: background 0.2s ease, color 0.2s ease}
+HTML {-webkit-text-size-adjust: 100%; text-size-adjust: 100%}
+BODY {line-height: 150%; text-align: left; font-family: valkyrie_ot_a, Verdana, "Lucida Sans", Arial, "Arial Unicode MS", Geneva; font-size: var(--fs-base); background: #F5F4ED; color: var(--text-body); max-width: 800px; margin: 0 auto; padding: 0 2em; word-wrap: break-word; overflow-wrap: break-word}
+A:link, A:active, A:visited {text-decoration: none; font-weight: bold; background: #F5F4ED; color: var(--text-link)}
+IMG {max-width: 100%; height: auto}
+TABLE {max-width: 100%}
+BODY::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>");
+  background-repeat: repeat;
+  background-size: 200px 200px;
+}
+
+@media (max-width: 700px) {
+  BODY {padding: 0 1em}
+}
+@media (max-width: 480px) {
+  BODY {padding: 0 0.75em}
+}
+
+SPAN.tras {font-family: valkyrie_ot_a, "Century Gothic", Arial, "Arial Unicode MS", Helvetica; font-weight: bold}
+SPAN.cita {font-family: valkyrie_ot_a, Arial, "Arial Unicode MS", Helvetica; color: var(--text-cite); font-weight: bold}
+SPAN.citas {font-style: italic}
+SPAN.rf {font-size: var(--fs-sm)}
+SPAN.vox {font-family: valkyrie_ot_a, "Trebuchet MS", "Palatino Linotype", Palatino, "Times New Roman", Times}
+SPAN.sent {font-family: valkyrie_ot_a, "Franklin Gothic Book", "Times New Roman", Times, "Palatino Linotype", Palatino; font-size: var(--fs-cite)}
+SPAN.gr {font-family: "Arial Unicode MS", GentiumAlt, Gentium; font-weight: bold; font-style: normal; color: var(--text-cite); font-size: var(--fs-cite)}
+SPAN.graec {font-family: "Arial Unicode MS", GentiumAlt, Gentium; font-weight: bold; font-style: normal; color: var(--text-cite); font-size: var(--fs-cite)}
+SPAN.hb {font-family: "Times New Roman", "Arial Unicode MS"}
+SPAN.ar {font-family: "Times New Roman", "Arial Unicode MS"}
+SPAN.auct {display: block; text-align: right}
+
+DIV.centro {text-align: center}
+DIV.uno {font-family: valkyrie_ot_a, Garamond, "Times New Roman"; font-size: var(--fs-xl); line-height: 100%; text-align: center; background: #F5F4ED; color: var(--text-title)}
+DIV.dos {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-lg); line-height: 100%; text-align: center; background: #F5F4ED; color: var(--text-label)}
+DIV.tres {font-family: valkyrie_ot_a, "Times New Roman"; font-size: var(--fs-md); line-height: 120%; text-align: center; background: #F5F4ED; color: var(--text-label)}
+DIV.cuatro {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-md); line-height: 120%; text-align: center; background: #F5F4ED; color: var(--text-title)}
+DIV.cuatrog {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-lg); line-height: 120%; text-align: center; background: #F5F4ED; color: var(--text-title)}
+DIV.cinco {font-family: valkyrie_ot_a, Garamond, "Times New Roman"; font-size: var(--fs-md); line-height: 120%; text-align: center; background: #F5F4ED; color: var(--text-title)}
+DIV.seis {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-sm); line-height: 120%; text-align: center; background: #F5F4ED; color: var(--text-title)}
+DIV.seisv {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-sm); line-height: 120%; text-align: center; background: #F5F4ED; color: var(--text-label)}
+DIV.siete {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-md); line-height: 120%; text-align: center; background: #F5F4ED; color: var(--text-label)}
+DIV.ocho {font-family: valkyrie_ot_a, "Times New Roman"; font-size: var(--fs-md); line-height: 120%; text-align: center; background: #F5F4ED; color: var(--text-label)}
+DIV.nueve {font-family: valkyrie_ot_a, Verdana, Arial, Geneva; font-size: var(--fs-xs); line-height: 120%; text-align: center; background: #F5F4ED; color: var(--text-label)}
+DIV.A {font-family: valkyrie_ot_a, "Times New Roman"; text-align: center; font-size: var(--fs-xl); line-height: 100%; font-weight: bold; text-transform: uppercase; background: #F5F4ED; color: var(--text-label)}
+DIV.B {font-family: valkyrie_ot_a, Garamond, "Times New Roman"; text-align: center; font-size: var(--fs-xl); line-height: 100%; font-weight: bold; text-transform: uppercase; background: #F5F4ED; color: var(--text-label)}
+DIV.C {font-family: valkyrie_ot_a, "Times New Roman"; line-height: 120%; text-align: center; font-size: var(--fs-lg); font-weight: bold; text-transform: uppercase; background: #F5F4ED; color: var(--text-label)}
+DIV.D {font-family: valkyrie_ot_a, Garamond, "Times New Roman"; line-height: 120%; text-align: center; font-size: var(--fs-lg); font-weight: bold; text-transform: uppercase; background: #F5F4ED; color: var(--text-label)}
+DIV.E {font-family: valkyrie_ot_a, "Times New Roman"; line-height: 120%; text-align: center; font-size: var(--fs-md); font-weight: bold; text-transform: uppercase; background: #F5F4ED; color: var(--text-label)}
+DIV.F {font-family: valkyrie_ot_a, Garamond, "Times New Roman"; line-height: 120%; text-align: center; font-size: var(--fs-md); font-weight: bold; text-transform: uppercase; background: #F5F4ED; color: var(--text-label)}
+DIV.G {font-family: valkyrie_ot_a, "Times New Roman"; font-size: var(--fs-sm); line-height: 120%; font-weight: bold; text-align: center; text-transform: uppercase; background: #F5F4ED; color: var(--text-label)}
+DIV.H {font-family: valkyrie_ot_a, Garamond, "Times New Roman"; line-height: 120%; text-align: center; font-size: var(--fs-sm); font-weight: bold; text-transform: uppercase; background: #F5F4ED; color: var(--text-label)}
+SPAN.uno {font-family: valkyrie_ot_a, Garamond, "Times New Roman"; font-size: var(--fs-xl); line-height: 100%; background: #F5F4ED; color: var(--text-title)}
+SPAN.dos {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-lg); line-height: 120%; background: #F5F4ED; color: var(--text-label)}
+SPAN.tres {font-family: valkyrie_ot_a, "Times New Roman"; font-size: var(--fs-md); line-height: 120%; background: #F5F4ED; color: var(--text-label)}
+SPAN.cuatro {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-md); line-height: 120%; background: #F5F4ED; color: var(--text-title)}
+SPAN.cinco {font-family: valkyrie_ot_a, Garamond, "Times New Roman"; font-size: var(--fs-md); line-height: 120%; background: #F5F4ED; color: var(--text-title)}
+SPAN.seis {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-sm); line-height: 120%; background: #F5F4ED; color: var(--text-label)}
+SPAN.siete {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-xs); line-height: 120%; background: #F5F4ED; color: var(--text-label)}
+SPAN.ocho {font-size: var(--fs-md); line-height: 120%; background: #F5F4ED; color: var(--text-label)}
+SPAN.nueve {font-family: valkyrie_ot_a, "Times New Roman"; font-size: var(--fs-xs); line-height: 120%; background: #F5F4ED; color: var(--text-label)}
+SPAN.diez {font-family: valkyrie_ot_a, "Times New Roman"; font-size: var(--fs-xs); line-height: 120%; background: #F5F4ED}
+SPAN.unon {font-family: valkyrie_ot_a, Garamond, "Times New Roman"; font-size: var(--fs-xl); font-weight: bold; line-height: 100%; background: #F5F4ED; color: var(--text-title)}
+SPAN.dosn {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-lg); font-weight: bold; line-height: 120%; background: #F5F4ED; color: var(--text-label)}
+SPAN.tresn {font-family: valkyrie_ot_a, "Times New Roman"; font-size: var(--fs-md); font-weight: bold; line-height: 120%; background: #F5F4ED; color: var(--text-label)}
+SPAN.cuatron {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-md); font-weight: bold; line-height: 120%; background: #F5F4ED; color: var(--text-title)}
+SPAN.cincon {font-family: valkyrie_ot_a, Garamond, "Times New Roman"; font-size: var(--fs-md); font-weight: bold; line-height: 120%; background: #F5F4ED; color: var(--text-title)}
+SPAN.seisn {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-sm); font-weight: bold; line-height: 120%; background: #F5F4ED; color: var(--text-label)}
+SPAN.sieten {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-xs); font-weight: bold; line-height: 120%; background: #F5F4ED; color: var(--text-label)}
+SPAN.breve {text-decoration: none}
+SPAN.blank {font-family: valkyrie_ot_a, "Times New Roman"; font-size: var(--fs-xs); line-height: 100%; text-align: center; background: #F5F4ED; color: #F5F4ED}
+SPAN.lista {display: block; text-align: right}
+SPAN.num {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-sm); background: #F5F4ED; color: var(--text-num)}
+SPAN.tit {display: none}
+SPAN.ref {display: block; font-size: var(--fs-sm); line-height: 120%; text-align: right; background: #F5F4ED; color: var(--text-ref)}
+SPAN.refs {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-sm); font-weight: light; line-height: 100%; vertical-align: middle; background: #F5F4ED; color: var(--text-ref)}
+SPAN.cit {display: none}
+
+SPAN.O {border-style: outset; line-height: 250%}
+SPAN.L {border-style: inset; line-height: 250%}
+SPAN.I {font-weight: bold; font-style: italic; line-height: 250%}
+SPAN.M {font-weight: bold; border-style: solid; line-height: 250%}
+SPAN.H {font-weight: bold; font-style: italic; border-style: solid; line-height: 250%} 
+SPAN.T {text-decoration: line-through; line-height: 250%}
+SPAN.C {font-weight: bold; text-decoration: underline; line-height: 250%}
+SPAN.F {font-weight: bold; font-style: italic; text-decoration: line-through; line-height: 250%}
+SPAN.G {font-weight: bold; border-style: solid; vertical-align: sub; text-decoration: line-through; line-height: 250%}
+SPAN.X {text-decoration: line-through; vertical-align: super; letter-spacing: 2pt; line-height: 250%}
+SPAN.Y {font-weight: bold; vertical-align: sub; letter-spacing: 2pt; line-height: 250%}
+SPAN.Z {font-weight: bold; font-style: italic; text-decoration: line-through; vertical-align: super; letter-spacing: 2pt; line-height: 250%}
+SPAN.W {font-weight: bold; border-style: solid; text-decoration: line-through; vertical-align: super; letter-spacing: 2pt; line-height: 250%}
+SPAN.V {background: #C0C0C0; line-height: 250%}
+SPAN.P {background: #C0C0C0; font-weight: bold; font-style: italic; line-height: 250%}
+SPAN.N {background: #C0C0C0; text-decoration: line-through; line-height: 250%}
+SPAN.Q {background: #C0C0C0; font-weight: bold; text-decoration: underline; line-height: 250%}
+
+SPAN.nota {font-family: "Courier New", Courier}
+SPAN.falsa {font-family: valkyrie_ot_a, Garamond, "Times New Roman"; font-size: var(--fs-sm); line-height: 120%}
+SPAN.negra {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-md); font-weight: bold; line-height: 120%; background: #F5F4ED; color: var(--text-body)}
+SPAN.negrag {font-family: valkyrie_ot_a, Arial, Geneva; font-size: var(--fs-lg); font-weight: bold; line-height: 120%; background: #F5F4ED; color: var(--text-body)}
+SPAN.super {font-size: var(--fs-xs); vertical-align: text-top}
+SPAN.ZA {text-transform: uppercase}
+TABLE {border-color: #DDDDDD; text-align: center}
+TH {vertical-align: middle; text-align: center}
+TD {text-align: left; background: #F5F4ED}
+UL.no {font-family: valkyrie_ot_a, Garamond, "Times New Roman"; list-style-type: none}
+LI.BR {list-style-image: url(https://www.corpusthomisticum.org/icons/red-ball.gif)}
+LI.BAP {list-style-image: url(https://www.corpusthomisticum.org/icons/bap.gif)}
+LI.BRP {list-style-image: url(https://www.corpusthomisticum.org/icons/brp.gif)}
+LI.BMP {list-style-image: url(https://www.corpusthomisticum.org/icons/bmp.gif)}
+LI.CZP {vertical-align: 33%; list-style-image: url(icons/bcz.gif) }
+LI.EN {vertical-align: 33%; list-style-image: url(icons/ben.gif) }
+LI.ENP {vertical-align: 33%; list-style-image: url(icons/ben.gif) }
+LI.ESP {vertical-align: 33%; list-style-image: url(icons/bes.gif) }
+LI.ES {vertical-align: 33%; list-style-image: url(icons/bes.gif) }
+LI.FR {vertical-align: 33%; list-style-image: url(icons/bfr.gif) }
+LI.HR {vertical-align: 33%; list-style-image: url(icons/bhr.gif) }
+LI.PO {vertical-align: 33%; list-style-image: url(icons/bpt.gif) }
+LI.IT {vertical-align: 33%; list-style-image: url(icons/bit.gif) }
+LI.NL {vertical-align: 33%; list-style-image: url(icons/bnl.gif) }
+LI.NP {vertical-align: 33%; list-style-image: url(icons/bnp.gif) }
+LI.DE {vertical-align: 33%; list-style-image: url(icons/bde.gif) }
+LI.LA {vertical-align: 33%; list-style-image: url(icons/bla.gif) }
+LI.POL {vertical-align: 33%; list-style-image: url(icons/bpl.gif) }
+LI.EL {vertical-align: 33%; list-style-image: url(icons/bel.gif) }
+LI.RU {vertical-align: 33%; list-style-image: url(icons/bru.gif) }
